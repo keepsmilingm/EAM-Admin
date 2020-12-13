@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../js/jquery.js"></script>
+    <script src="is.js"></script>
+    <script src="diy-validate.js"></script>
+    <script src="sweet-alert/js/sweet-alert.js"></script>
+    <link rel="stylesheet" href="sweet-alert/css/sweet-alert.css">
+
+</head>
+<body>
+<form  class="" id="main">
+    邮件<input type="text" name="email" value="132@qqq.com">
+    用户名<input type="text" name="username">
+
+</form>
+<button id="sub">提交</button>
+</body>
+<script>
+<!--必须通过document.querySelector('button').onclick绑定一个点击事件-->
+    document.querySelector('#sub').onclick = function(){
+        // console.log(startValidate("main"));
+        optionToast("删除")
+    };
+</script>
+
+</html>

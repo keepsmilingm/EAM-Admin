@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jquery表格转excel表格插件|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>jquery表格转excel表格插件 <span>Client Side Table To Excel Export Plugin</span></h1>
+			<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/jQuery/jquery-tools/201801234945.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3" style="padding:2em 0;">
+					<button type="button" class="btn btn-success btn-block" id="generate-excel"><i class="fa fa-file-excel-o" aria-hidden="true"></i> 将表格转换为Excel</button>
+				</div>
+				<div class="col-md-12" style="padding:2em 0;">
+					<div class="table-responsive">
+					<table class="table table-bordered table-striped" id="test_table">
+					    <thead>
+					      <tr>
+					        <td>等级</td>
+					        <td>姓名</td>
+					        <td>城市</td>
+					        <td>州</td>
+					        <td>部门</td>
+					        <td>选取</td>
+					        <td>票数</td>
+					      </tr>
+					    </thead>
+					    <tbody>
+					      <tr>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                    <td>
+				                        <span>Small, Steve </span>
+				                    </td>
+				                    <td>
+				                        <span>New York</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Metropolitan Region</span>
+				                    </td>
+				                    <td>
+				                        <span>378</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>2</span>
+				                    </td>
+				                    <td>
+				                        <span>Novello, Rodolfo </span>
+				                    </td>
+				                    <td>
+				                        <span>Lawrence</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Long Island Region</span>
+				                    </td>
+				                    <td>
+				                        <span>223</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>3</span>
+				                    </td>
+				                    <td>
+				                        <span>O'Neill, Jim </span>
+				                    </td>
+				                    <td>
+				                        <span>Philmont</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Northern Region</span>
+				                    </td>
+				                    <td>
+				                        <span>192</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>4</span>
+				                    </td>
+				                    <td>
+				                        <span>Sobong, Emmanuel </span>
+				                    </td>
+				                    <td>
+				                        <span>River Edge</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>162</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>5</span>
+				                    </td>
+				                    <td>
+				                        <span>Stewart, Cliff </span>
+				                    </td>
+				                    <td>
+				                        <span>Bridgewater</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>132</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>6</span>
+				                    </td>
+				                    <td>
+				                        <span>Erskine, Ronald G </span>
+				                    </td>
+				                    <td>
+				                        <span>Ridgewood</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>126</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>6</span>
+				                    </td>
+				                    <td>
+				                        <span>Levine, Max </span>
+				                    </td>
+				                    <td>
+				                        <span>West Sand Lake</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Northern Region</span>
+				                    </td>
+				                    <td>
+				                        <span>126</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>6</span>
+				                    </td>
+				                    <td>
+				                        <span>Warren, Paul </span>
+				                    </td>
+				                    <td>
+				                        <span>Schenectady</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Northern Region</span>
+				                    </td>
+				                    <td>
+				                        <span>126</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>9</span>
+				                    </td>
+				                    <td>
+				                        <span>Fischbach, David </span>
+				                    </td>
+				                    <td>
+				                        <span>Prt Washingtn</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Long Island Region</span>
+				                    </td>
+				                    <td>
+				                        <span>97</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>9</span>
+				                    </td>
+				                    <td>
+				                        <span>Lai, Ben </span>
+				                    </td>
+				                    <td>
+				                        <span>Bridgewater</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>97</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>11</span>
+				                    </td>
+				                    <td>
+				                        <span>Gitterman, Matthew </span>
+				                    </td>
+				                    <td>
+				                        <span>Bridgewater</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>96</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>11</span>
+				                    </td>
+				                    <td>
+				                        <span>Kalina, Jonathan </span>
+				                    </td>
+				                    <td>
+				                        <span>Fair Lawn</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>96</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>11</span>
+				                    </td>
+				                    <td>
+				                        <span>Elfant, Scott </span>
+				                    </td>
+				                    <td>
+				                        <span>Paramus</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>96</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>14</span>
+				                    </td>
+				                    <td>
+				                        <span>Salandy, John </span>
+				                    </td>
+				                    <td>
+				                        <span>East Orange</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>81</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>15</span>
+				                    </td>
+				                    <td>
+				                        <span>Sendich, Sadik </span>
+				                    </td>
+				                    <td>
+				                        <span>Staten Island</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Metropolitan Region</span>
+				                    </td>
+				                    <td>
+				                        <span>66</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>16</span>
+				                    </td>
+				                    <td>
+				                        <span>Grey, James </span>
+				                    </td>
+				                    <td>
+				                        <span>Westwood</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>41</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>16</span>
+				                    </td>
+				                    <td>
+				                        <span>Wirstrom, Robert </span>
+				                    </td>
+				                    <td>
+				                        <span>Upper Saddle River</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>41</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>16</span>
+				                    </td>
+				                    <td>
+				                        <span>Prevost, Christopher </span>
+				                    </td>
+				                    <td>
+				                        <span>Hoboken</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>41</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>16</span>
+				                    </td>
+				                    <td>
+				                        <span>Koch, Vladimir </span>
+				                    </td>
+				                    <td>
+				                        <span>Cresskill</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>41</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>20</span>
+				                    </td>
+				                    <td>
+				                        <span>bullaro, joseph </span>
+				                    </td>
+				                    <td>
+				                        <span>Great Neck</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Long Island Region</span>
+				                    </td>
+				                    <td>
+				                        <span>6</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>21</span>
+				                    </td>
+				                    <td>
+				                        <span>Scarpati, Steven </span>
+				                    </td>
+				                    <td>
+				                        <span>Basking Ridge</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>2</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>21</span>
+				                    </td>
+				                    <td>
+				                        <span>MIRZA, SHAHZEB </span>
+				                    </td>
+				                    <td>
+				                        <span>Jackson heights</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Metropolitan Region</span>
+				                    </td>
+				                    <td>
+				                        <span>2</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>21</span>
+				                    </td>
+				                    <td>
+				                        <span>Voellmicke, Craig </span>
+				                    </td>
+				                    <td>
+				                        <span>New York</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Metropolitan Region</span>
+				                    </td>
+				                    <td>
+				                        <span>2</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Sulsky, Ben </span>
+				                    </td>
+				                    <td>
+				                        <span>Cornwall</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Southern Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Jasnosz, Michael </span>
+				                    </td>
+				                    <td>
+				                        <span>Ridgewood</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>PEREZ, JACOB </span>
+				                    </td>
+				                    <td>
+				                        <span>Haworth</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Gonzalez, Christopher </span>
+				                    </td>
+				                    <td>
+				                        <span>North Bergen</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Margolin, Ken </span>
+				                    </td>
+				                    <td>
+				                        <span>East Brunswick</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Watson, Michael </span>
+				                    </td>
+				                    <td>
+				                        <span>Manville</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Garbisch, Leif </span>
+				                    </td>
+				                    <td>
+				                        <span>Ghent</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Northern Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Shkop, Sergey </span>
+				                    </td>
+				                    <td>
+				                        <span>Ridgewood</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Honore, Daniel </span>
+				                    </td>
+				                    <td>
+				                        <span>Albany</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Northern Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Israel, Matthew </span>
+				                    </td>
+				                    <td>
+				                        <span>Great Neck</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Long Island Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Chung, Dong-Ha </span>
+				                    </td>
+				                    <td>
+				                        <span>Delmar</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Northern Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Auler, Robert </span>
+				                    </td>
+				                    <td>
+				                        <span>Oswego</span>
+				                    </td>
+				                    <td>
+				                        <span>NY</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>Western Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Killebrew, Steve </span>
+				                    </td>
+				                    <td>
+				                        <span>Ridgewood</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+				                <tr>
+				                    <td>
+				                        <span>24</span>
+				                    </td>
+				                    <td>
+				                        <span>Mehringer, Daniel Boyd</span>
+				                    </td>
+				                    <td>
+				                        <span>Middletown</span>
+				                    </td>
+				                    <td>
+				                        <span>NJ</span>
+				                    </td>
+				                    <td>
+				                        <span>Eastern</span>
+				                    </td>
+				                    <td>
+				                        <span>New Jersey Region</span>
+				                    </td>
+				                    <td>
+				                        <span>1</span>
+				                    </td>
+				                </tr>
+					    </tbody>
+					  </table>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<script type="text/javascript" src="./external/jquery-1.8.2.js"></script>
+	<script type="text/javascript" src="./external/jszip.js"></script>
+	<script type="text/javascript" src="./external/FileSaver.js"></script>
+	<script type="text/javascript" src="./scripts/excel-gen.js"></script>
+	<script type="text/javascript" src="./scripts/demo.page.js"></script>
+</body>
+</html>

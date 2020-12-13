@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ams.dao.IMessageDao">
+
+    <resultMap type="Message" id="MessageMap">
+        <id column="id" property="id"/>
+        <result column="des" property="des"/>
+        <result column="detail" property="detail"/>
+        <result column="senderId" property="senderId"/>
+        <result column="sender" property="sender"/>
+        <result column="type" property="type"/>
+        <result column="typeStr" property="typeStr"/>
+        <result column="sendTime" property="sendTime"/>
+      <association property="receivers" column="id" >
+          <result column="receiverId" property="receiverId"/>
+          <result column="checkStatus" property="checkStatus"/>
+          <result column="checkStatusStr" property="checkStatusStr"/>
+          <result column="receiverId" property="receiverId"/>
+          <result column="checkTime" property="checkTime"/>
+      </association>
+    </resultMap>
+
+    <!-- 先查询菜单根级目录 -->
+    <!-- 这里的返回结果必须为resultMap，并且值为上面构建的resultMap的id的值 -->
+<!--    <select id="findM_CById" resultMap="MessageMap" parameterType="java.lang.String">-->
+<!--        SELECT * FROM message m  ,message_receiver r where m.id=r.messageId  and r.messageId=#{messageId}  and r.receiverId=#{receiverId}-->
+<!--    </select>-->
+
+<!--    <select id="findByType" resultMap="MessageMap">-->
+<!--        SELECT * FROM message m,message_receiver r-->
+<!--        where r.receiverId=#{messageId} and r.checkstatus=#{checkstatus}-->
+<!--        and m.id=r.messageId-->
+
+<!--    </select>-->
+
+   
+
+</mapper>

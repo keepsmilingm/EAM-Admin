@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AMS_SSM:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08687a34-9c0e-4f89-8518-f0152ed74a4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetAllotController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetInventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetRepairController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetScrapController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetUtilController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/FileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/MessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetAllotDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetInventoryDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetRepairDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetScrapDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/dao/IDepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/dao/IMessageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/AssetAllot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/AssetInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/AssetModify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/AssetRepair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/AssetScrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/FullMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/MessageCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/MessageReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/IAssetAllotService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/IAssetInventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/IAssetRepairService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/IAssetScrapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/IDepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/IMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/IAssetAllotServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/IAssetInventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/IAssetRepairServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/IAssetScrapServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/Department.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/Message.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/aside.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/assetOption.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/base-message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/getUrlParam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vconsole.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/asset-print.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetAllot-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetAllot-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetAllot-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetInventory-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetInventory-page-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetInventory-scan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetInventory-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetInventory-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetModify-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetModify-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetModify-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetRepair-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetRepair-page-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetRepair-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetRepair-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetScrap-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetScrap-page-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetScrap-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/assetScrap-update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/department-page-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/fileload.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/image-editor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/message-page-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/message-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/message-to-department.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/message-to-users.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/scan.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/user-add-DIY-picMethod.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/bootstrap/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/diy-optionToast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/diy-validate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/diy-validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/diy-is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/is.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/is_js用于表单验证，只返回验证结果，无多余操作.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/jjj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/test/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/test/vendor/chai.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/test/vendor/mocha.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/is/test/vendor/mocha.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/loadData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/css/example.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/css/sweet-alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/images/logo_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/images/logo_big@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/images/logo_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/images/logo_small@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/images/te-logo-small.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/images/thumbs-up.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/images/vs_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/images/vs_icon@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/js/sweet-alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/js/sweet-alert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/diy/sweet-alert/用法介绍" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/css/htmleaf-demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/external/FileSaver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/external/jquery-1.8.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/external/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/external/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/jQuery之家.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/scripts/demo.page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/excel-generate/scripts/excel-gen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/css/htmleaf-demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/js/filerobot-image-editor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/filerobot-image-editor/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/css/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/jQuery之家.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/LANG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/cr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/cz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/locales/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/plugins/canvas-to-blob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/plugins/canvas-to-blob.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/plugins/purify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/plugins/purify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/plugins/sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/js/plugins/sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/nuget/Package.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/nuget/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/sass/fileinput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/themes/fa/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/fileupload/themes/gly/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/css/htmleaf-demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/css/iziToast.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/css/iziToast.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/img/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/js/iziToast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/js/iziToast.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/iziToast/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryPrint/img/demo-img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryPrint/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryPrint/jquery插件库.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryPrint/js/jQuery.print.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryPrint/js/vendor/html5-3.6-respond-1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryPrint/js/vendor/jquery-1.9.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jQueryPrint/www.jq22.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryQRcode/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryQRcode/jquery插件库.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryQRcode/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryQRcode/js/qrcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryQRcode/js/reqrcode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryQRcode/jx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryQRcode/reqrcode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryQRcode/www.jq22.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryphotoclip/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryphotoclip/jquery插件库.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryphotoclip/js/PhotoClip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryphotoclip/js/hammer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryphotoclip/js/iscroll-zoom-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryphotoclip/js/jquery-2.1.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryphotoclip/js/lrz.all.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/jqueryphotoclip/www.jq22.com.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/css/htmleaf-demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/demo/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/demo/js/prism.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/demo/style/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/demo/style/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/dist/overhang.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/dist/overhang.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/js/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/lib/overhang.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/lib/overhang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/overhang/顶部消息提示插件.url" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/emma-watson-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/img/thumbnails/emma-watson-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/dist/viewer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/dist/viewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/dist/viewer.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/dist/viewer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/img/icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/bind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/intro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/others.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/outro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/prototype.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/utilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/variables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/js/viewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_canvas.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_container.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_player.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_title.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_toolbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/picView/src/scss/viewer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/css/foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/css/mtree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/js/jquery.velocity.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/js/mtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/js/stopExecutionOnTimeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/toggle/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/docco.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/aller-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/aller-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/aller-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/aller-light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/aller-light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/aller-light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/novecento-bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/novecento-bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/fonts/novecento-bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/public/stylesheets/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/docs/validate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/js/diy-match-rule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/js/jquery-2.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/js/match-rule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/js/validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/js/validate.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/readme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/related/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/related/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/helpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validate-async-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validate-helpers-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validate-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/datetime-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/email-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/equality-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/exclusion-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/format-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/inclusion-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/length-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/numericality-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/validators/presence-spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/vendor/jasmine-promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/vendor/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/vendor/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/vendor/promise-1.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/specs/vendor/xdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/plugins/validator/validator_js用于表单验证，暂时没用到.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/uploads/二维码图片_5月6日21时26分36秒.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/是403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/domain/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/Asset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/domain/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/domain/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/domain/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/service/IAssetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/IAssetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/AssetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/AssetServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ams/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/failer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/failer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/asset-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/asset-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/asset-fuzzy-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/user-page-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/asset-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/asset-page-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/asset-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/asset-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/failer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/failer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/orders-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/orders-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/orders-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/orders-page-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/orders-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/orders-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/permission-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/permission-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/permission-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/permission-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/permission-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/permission-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/product-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/product-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/product-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/product-list1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/product-list1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/role-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/role-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/role-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/role-permission-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/role-permission-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/role-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/role-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/syslog-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/syslog-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/user-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/user-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/user-edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/user-edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/user-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/user-role-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/user-role-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/user-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/pages/user-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/pages/user-show1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/403.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/403.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/controller/AssetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/controller/AssetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/dao/IAssetDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/dao/IAssetDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/domain/Asset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/domain/Asset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/domain/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/domain/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/domain/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/domain/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/service/IAssetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/service/IAssetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/service/impl/AssetServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/service/impl/AssetServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/com/ams/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/classes/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/lib/fastjson-1.1.37.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/asset-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/asset-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/asset-fuzzy-list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/asset-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/asset-page-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/asset-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/asset-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/orders-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/orders-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/orders-page-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/orders-page-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/orders-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/orders-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/permission-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/permission-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/permission-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/permission-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/permission-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/permission-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/product-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/product-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/product-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/product-list1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/product-list1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/role-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/role-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/role-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/role-permission-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/role-permission-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/role-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/role-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/syslog-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/syslog-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/user-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/user-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/user-edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/user-edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/user-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/user-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/user-role-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/user-role-add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/user-show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/AMS_SSM/pages/user-show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AMS_SSM/pages/user-show1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/controller/AssetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/controller/AssetController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/dao/IAssetDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/dao/IAssetDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/dao/IUserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/dao/IUserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/domain/Asset.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/domain/Asset.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/domain/Department.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/domain/Department.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/domain/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/domain/UserInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/service/IAssetService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/service/IAssetService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/service/IUserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/service/impl/AssetServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/service/impl/AssetServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ams/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ams/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2020-04-04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/index_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/login_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/login_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/login_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/login_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/aside_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/aside_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/aside_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/aside_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/asset_002dpage_002dlist_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/asset_002dpage_002dlist_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/asset_002dpage_002dlist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/asset_002dpage_002dlist_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/asset_002dshow_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/asset_002dshow_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/asset_002dshow_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/asset_002dshow_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/header_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/header_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/header_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/header_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/main_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/main_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/main_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/main_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/orders_002dpage_002dlist_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/orders_002dpage_002dlist_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/orders_002dpage_002dlist_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/orders_002dpage_002dlist_jsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/product_002dlist1_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/product_002dlist1_jsp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/product_002dlist1_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/AMS_SSM/org/apache/jsp/pages/product_002dlist1_jsp.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetInventory-page-list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23240">
+              <caret line="664" column="43" selection-start-line="664" selection-start-column="43" selection-end-line="664" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/aside.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1890">
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetInventory-add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11305">
+              <caret line="323" column="34" selection-start-line="323" selection-start-column="34" selection-end-line="323" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetAllot-show.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/controller/AssetInventoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2660">
+              <caret line="94" column="66" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/IAssetInventoryService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/IAssetService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="17" column="52" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetInventory-show.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13825">
+              <caret line="395" column="99" selection-start-line="395" selection-start-column="99" selection-end-line="395" selection-end-column="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetInventoryDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1085">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>研究院</find>
+      <find>changeT</find>
+      <find>checkStatusS</find>
+      <find>chu</find>
+      <find>order.id</find>
+      <find>mId</find>
+      <find>check</find>
+      <find>0t</find>
+      <find>main</find>
+      <find>getU</find>
+      <find>Option</find>
+      <find>游记</find>
+      <find>contains</find>
+      <find>HERF</find>
+      <find>数据</find>
+      <find>维修</find>
+      <find>update</find>
+      <find>请求部门</find>
+      <find>find</find>
+      <find>void</find>
+      <find>添加</find>
+      <find>新建</find>
+      <find>保存</find>
+      <find>待我</find>
+      <find>同意</find>
+      <find>findAll</find>
+      <find>secu</find>
+      <find>BAG</find>
+      <find>assetoption</find>
+      <find>code</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>assetOption</replace>
+      <replace>&amp;senderId=&lt;%=session.getAttribute(&quot;senderId&quot;)%&gt;</replace>
+      <replace>&amp;checkerId=&lt;%=session.getAttribute(&quot;checkerId&quot;)%&gt;</replace>
+      <replace>&amp;checkerId=&lt;%=session.getAttribute(&quot;checkerId&quot;)%&gt;&amp;option=&lt;%=session.getAttribute(&quot;option&quot;)%&gt;</replace>
+      <replace>/assetOption/findOptionList.do</replace>
+      <replace>senderChangeOption</replace>
+      <replace>receiverChangeOption</replace>
+      <replace>creatTime</replace>
+      <replace>CreatTime</replace>
+      <replace>Bollean</replace>
+      <replace>AssetAllot</replace>
+      <replace>Receive</replace>
+      <replace>checker</replace>
+      <replace>Allot</replace>
+      <replace>scrap</replace>
+      <replace>AssetScrap</replace>
+      <replace>资产管理系统</replace>
+      <replace>senderId</replace>
+      <replace>findAllSend</replace>
+      <replace>pic</replace>
+      <replace>Pic</replace>
+      <replace>报废</replace>
+      <replace>Scrap</replace>
+      <replace>inventory</replace>
+      <replace>Inventory</replace>
+      <replace>盘点</replace>
+      <replace>id</replace>
+      <replace>Repair</replace>
+      <replace>Link</replace>
+      <replace>Boolean</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/user-role-add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/failer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/service/impl/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/service/IMessageService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/message-show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/domain/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/domain/MessageReceiver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/dao/IMessageDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/controller/MessageController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jump.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jump.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetRepairDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetUtilController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/vconsole.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/message-page-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/plugins/diy/is.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/assetOption.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/domain/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/user-add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/plugins/diy/diy-validate.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/user-edit.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/user-page-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/user-show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/asset-page-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/assetRepair-show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/assetScrap-page-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/assetScrap-show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/asset-show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/assetRepair-page-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/department-page-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/aside.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetRepairController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/assetRepair-add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/assetInventory-show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetScrapController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetInventoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ams/controller/AssetInventoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/assetInventory-page-list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/aside.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\MavenRepo" />
+        <option name="mavenHome" value="E:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AMS_SSM Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="AMS_SSM Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AMS_SSM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AMS_SSM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-aop:5.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-aop-5.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp\WEB-INF" />
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp\pages" />
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp\plugins" />
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp\img" />
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ams.controller" />
+      <recent name="com.ams.dao" />
+      <recent name="com.ams.service.impl" />
+      <recent name="com.ams.service" />
+      <recent name="com.ams.domain" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp" />
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp\uploads" />
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp\plugins\diy" />
+      <recent name="G:\IDEA_workspace\clone\AMS_SSM\src\main\webapp\pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Maven.AMS_SSM [tomcat7:run]">
+    <configuration name="BCryptPasswordEncoderUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ams.utils.BCryptPasswordEncoderUtils" />
+      <module name="AMS_SSM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ams.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AMS_SSM [tomcat7:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="tomcat7:run" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BCryptPasswordEncoderUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08687a34-9c0e-4f89-8518-f0152ed74a4c" name="Default Changelist" comment="" />
+      <created>1584359334427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584359334427</updated>
+      <workItem from="1584359337546" duration="8615000" />
+      <workItem from="1584403126753" duration="10793000" />
+      <workItem from="1584441928523" duration="4138000" />
+      <workItem from="1584492145979" duration="1209000" />
+      <workItem from="1584503512334" duration="2016000" />
+      <workItem from="1584510933900" duration="21026000" />
+      <workItem from="1584584324498" duration="2612000" />
+      <workItem from="1584615403615" duration="9079000" />
+      <workItem from="1584670189620" duration="1833000" />
+      <workItem from="1584926355616" duration="1254000" />
+      <workItem from="1585022356447" duration="7041000" />
+      <workItem from="1585444374030" duration="672000" />
+      <workItem from="1585621341610" duration="6885000" />
+      <workItem from="1585698010938" duration="11981000" />
+      <workItem from="1585750589742" duration="1202000" />
+      <workItem from="1585813921316" duration="20105000" />
+      <workItem from="1585871475712" duration="34390000" />
+      <workItem from="1585960455893" duration="22266000" />
+      <workItem from="1585988939691" duration="23401000" />
+      <workItem from="1586046248900" duration="9518000" />
+      <workItem from="1586064344707" duration="26789000" />
+      <workItem from="1586160542257" duration="3850000" />
+      <workItem from="1586238304662" duration="7282000" />
+      <workItem from="1586257623136" duration="10542000" />
+      <workItem from="1586310584757" duration="5471000" />
+      <workItem from="1586338162683" duration="3503000" />
+      <workItem from="1586395097904" duration="11141000" />
+      <workItem from="1586428698538" duration="13240000" />
+      <workItem from="1586443303675" duration="19000" />
+      <workItem from="1586480068733" duration="12371000" />
+      <workItem from="1586499337559" duration="2022000" />
+      <workItem from="1586569202112" duration="6996000" />
+      <workItem from="1586603122827" duration="13999000" />
+      <workItem from="1586651886432" duration="17005000" />
+      <workItem from="1586676740872" duration="5692000" />
+      <workItem from="1586690252192" duration="8269000" />
+      <workItem from="1586743687643" duration="37908000" />
+      <workItem from="1586827016290" duration="5536000" />
+      <workItem from="1586834052484" duration="3064000" />
+      <workItem from="1586844653882" duration="9367000" />
+      <workItem from="1586862272153" duration="13694000" />
+      <workItem from="1586915621205" duration="19570000" />
+      <workItem from="1586946842122" duration="15752000" />
+      <workItem from="1587001078410" duration="10042000" />
+      <workItem from="1587023536603" duration="2980000" />
+      <workItem from="1587039094212" duration="11837000" />
+      <workItem from="1587085880816" duration="4684000" />
+      <workItem from="1587103525859" duration="7496000" />
+      <workItem from="1587118964646" duration="7726000" />
+      <workItem from="1587204402466" duration="9301000" />
+      <workItem from="1587289763445" duration="8281000" />
+      <workItem from="1587359755890" duration="956000" />
+      <workItem from="1587562432981" duration="932000" />
+      <workItem from="1587726409111" duration="842000" />
+      <workItem from="1587810909589" duration="1939000" />
+      <workItem from="1587820878932" duration="1239000" />
+      <workItem from="1588297906202" duration="1097000" />
+      <workItem from="1588313966285" duration="3174000" />
+      <workItem from="1588335755366" duration="1758000" />
+      <workItem from="1588483728137" duration="3623000" />
+      <workItem from="1588511065873" duration="626000" />
+      <workItem from="1588515449235" duration="625000" />
+      <workItem from="1588686757331" duration="2320000" />
+      <workItem from="1588731065537" duration="7246000" />
+      <workItem from="1588750261138" duration="25701000" />
+      <workItem from="1588813661761" duration="9749000" />
+      <workItem from="1588847798425" duration="653000" />
+      <workItem from="1588855731241" duration="5911000" />
+      <workItem from="1588912324679" duration="433000" />
+      <workItem from="1588916845081" duration="7390000" />
+      <workItem from="1588956123597" duration="131000" />
+      <workItem from="1588987211986" duration="2626000" />
+      <workItem from="1589005481521" duration="12164000" />
+      <workItem from="1589029491432" duration="1389000" />
+      <workItem from="1589088742781" duration="11959000" />
+      <workItem from="1589161680570" duration="845000" />
+      <workItem from="1589180541993" duration="1553000" />
+      <workItem from="1589200940073" duration="3066000" />
+      <workItem from="1589334409292" duration="5265000" />
+      <workItem from="1589348131340" duration="2219000" />
+      <workItem from="1589355766940" duration="599000" />
+      <workItem from="1589370507419" duration="3143000" />
+      <workItem from="1589434708793" duration="1504000" />
+      <workItem from="1589443894587" duration="2345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="640487000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37734583" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.33888888" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.19305556" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32916668" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32916668" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.4644772" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2580429" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32916668" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.048611112" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32916668" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32916668" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32916668" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.4644772" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/user-page-list.jsp</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ams/domain/Orders.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/webapp/pages/orders-show.jsp</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ams/controller/AssetUtilController.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ams/controller/AssetUtilController.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/plugins/diy/is/is.js</url>
+          <line>330</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/user-page-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="278" column="49" lean-forward="true" selection-start-line="278" selection-start-column="49" selection-end-line="278" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/user-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="214" column="23" lean-forward="true" selection-start-line="214" selection-start-column="23" selection-end-line="214" selection-end-column="23" />
+          <folding>
+            <element signature="e#6285#6306#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetModify-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetScrap-page-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-988">
+          <caret line="170" column="41" selection-start-line="170" selection-start-column="41" selection-end-line="170" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetRepair-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="240" column="55" lean-forward="true" selection-start-line="240" selection-start-column="55" selection-end-line="240" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetScrap-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="244" column="45" selection-start-line="244" selection-start-column="45" selection-end-line="244" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/message-page-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="68" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/dao/IMessageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="28" column="102" lean-forward="true" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/department-page-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4712">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/asset-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5681">
+          <caret line="299" column="65" selection-start-line="299" selection-start-column="65" selection-end-line="299" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetRepair-page-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2090">
+          <caret line="110" column="109" selection-start-line="110" selection-start-column="109" selection-end-line="110" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/controller/MessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenRepo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/bind/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="78" column="78" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/MavenRepo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/MvcUriComponentsBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/role-show.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/syslog-list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/IRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/IProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3885">
+          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/aside.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1645">
+          <caret line="47" column="50" selection-start-line="47" selection-start-column="50" selection-end-line="47" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/asset-add.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetScrap-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11515">
+          <caret line="329" column="50" selection-start-line="329" selection-start-column="50" selection-end-line="329" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7770">
+          <caret line="222" column="49" selection-start-line="222" selection-start-column="49" selection-end-line="222" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/impl/AssetServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/assetOption.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="18237" column="12" selection-start-line="18237" selection-start-column="12" selection-end-line="18237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetRepair-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11620">
+          <caret line="332" column="28" selection-start-line="332" selection-start-column="28" selection-end-line="332" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/controller/AssetRepairController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2275">
+          <caret line="82" column="45" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/controller/AssetScrapController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2310">
+          <caret line="83" column="99" selection-start-line="83" selection-start-column="99" selection-end-line="83" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/domain/Asset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/user-list.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/success.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/404.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/controller/AssetAllotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12794#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/controller/AssetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/impl/IAssetInventoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="942">
+          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/asset-page-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18200">
+          <caret line="520" column="65" selection-start-line="520" selection-start-column="12" selection-end-line="520" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetInventory-page-list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23240">
+          <caret line="664" column="43" selection-start-line="664" selection-start-column="43" selection-end-line="664" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetInventory-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11305">
+          <caret line="323" column="34" selection-start-line="323" selection-start-column="34" selection-end-line="323" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetAllot-show.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/controller/AssetInventoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2660">
+          <caret line="94" column="66" selection-start-line="94" selection-start-column="66" selection-end-line="94" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/IAssetInventoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/service/IAssetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/pages/assetInventory-show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13825">
+          <caret line="395" column="99" selection-start-line="395" selection-start-column="99" selection-end-line="395" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ams/dao/IAssetInventoryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1085">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/aside.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>AMS_SSM:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring|AMS_SSM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

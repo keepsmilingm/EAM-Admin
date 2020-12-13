@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>js图片编辑器插件Filerobot|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link href="http://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css"><!--演示页面样式，使用时可以不引用-->
+	<style type="text/css">
+		img{width:100%;}
+	</style>
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>js图片编辑器插件Filerobot <span>A JavaScript Image Editor</span></h1>
+			<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/jQuery/Image-Effects/201906205700.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="center">点击图片开始进行编辑：</h3>
+					<a href="#" id="demo1">
+						<img src="related/1.jpg" class="img block-center" >
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="related">
+		    <h3>如果你喜欢这个插件，那么你可能也喜欢:</h3>
+		    <a href="http://www.htmleaf.com/jQuery/Image-Effects/201806215186.html">
+				  <img src="related/1.jpg" width="300" alt="基于canvas的jQuery图片剪裁插件"/>
+				  <h3>基于canvas的jQuery图片剪裁插件</h3>
+				</a>
+				<a href="http://www.htmleaf.com/jQuery/Image-Effects/201802274993.html">
+				  <img src="related/2.jpg" width="300" alt="支持移动设备的js图片剪裁插件"/>
+				  <h3>支持移动设备的js图片剪裁插件</h3>
+				</a>
+		</div>
+	</div>
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="js/filerobot-image-editor.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#demo1').click(function(){
+				const ImageEditor1 = new FilerobotImageEditor();
+				ImageEditor1.open('http://localhost:8888/AMS_SSM/uploads/10c772891c1b4485854d10fc99ad6201.jpg');
+			})
+		})
+		
+	</script>
+</body>
+</html>

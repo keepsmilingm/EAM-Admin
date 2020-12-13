@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        #qrcode {
+            width:160px;
+            height:160px;
+            margin-top:15px;
+        } 
+        #text{
+            height: 23px;
+        }
+        #button{
+            height: 29px;
+        }
+    </style>
+    <title>生成二维码</title>
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="./js/qrcode.js"></script>
+</head>
+
+<body>
+<!--    <div style="width:360px;height:360px;">-->
+        <h2 style="margin-left: 50px;">生成二维码</h2>
+        <input id="text" type="text" value="https://www.jq22.com" /><button id="button">生成二维码</button><br />
+        <div id="qrcode"></div>
+<!--    </div>-->
+    <h2><a href="./reqrcode.html">我要解析二维码</a></h2>
+</body>
+
+<script type="text/javascript">
+    var qrcode = new QRCode("qrcode");
+    // 生成二维码的方法
+    function makeCode () {     
+        // 二维码地址 
+        var Url = document.getElementById("text");
+        if (!Url.value) {
+            alert("请输入生成二维码的地址");
+            Url.focus();
+            return;
+        }
+        qrcode.makeCode(Url.value);
+    }
+    makeCode();
+    // 点击生成二维码
+    $("#button").
+    on("click", function () {
+        makeCode();
+    })
+</script>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        #qrcode {
+            width:160px;
+            height:160px;
+            margin-top:15px;
+        } 
+        #text{
+            height: 23px;
+        }
+        #button{
+            height: 29px;
+        }
+        #img{
+          width: 200px;
+          height: 200px;
+        }
+    </style>
+    <title>解析二维码</title>
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="./js/reqrcode.js"></script>
+</head>
+
+<body>
+    <div style="width:360px;height:360px;">
+        <h2 style="margin-left: 30px;">解析二维码</h2>
+        <input type="file" id="newfile" onchange="changepic(this)"></br>
+        <img src="jx.png" id="img" />
+        <h4>二维码地址:<span id="spantitle"></span></h4>
+    </div>
+    <h2><a href="./index.html">我要生成二维码</a></h2>
+</body>
+
+<script type="text/javascript">
+    // 解析
+    var newfile = document.getElementById('newfile');
+
+    var getObjectURL = function (file) {
+        var url = null;
+        if (window.createObjectURL != undefined) { // basic
+          url = window.createObjectURL(file);
+        } else if (window.URL != undefined) { // mozilla(firefox)
+        url = window.URL.createObjectURL(file);
+        } else if (window.webkitURL != undefined) { // webkit or chrome
+          url = window.webkitURL.createObjectURL(file);
+        }
+        return url;
+    }
+
+
+    newfile.onchange = function () {
+      // 显示图片
+      var reads = new FileReader();
+      f = document.getElementById('newfile').files[0];
+      reads.readAsDataURL(f);
+      reads.onload = function(e) {
+      document.getElementById('img').src = this.result;
+      $("#img").css("display", "block");
+      };
+        //   console.log(newfile[0]);
+        console.log(getObjectURL(this.files[0]));// newfile[0]是通过input file上传的二维码图片文件
+        qrcode.decode(getObjectURL(this.files[0]));
+        qrcode.callback = function (imgMsg) {
+            // 获取地址传给span
+            var divA = document.getElementById("spantitle");
+            divA.innerHTML = divA.innerHTML+ imgMsg;
+        }
+    }
+</script>
+
+</html>

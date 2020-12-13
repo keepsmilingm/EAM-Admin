@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- release v4.3.6, copyright 2014 - 2017 Kartik Visweswaran -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Krajee JQuery Plugins - &copy; Kartik</title>
+        <link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/default.css">
+        <link href="css/fileinput.css" media="all" rel="stylesheet" type="text/css" />
+        <script src="http://cdn.bootcss.com/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/fileinput.js" type="text/javascript"></script>
+        <!--简体中文-->
+        <script src="js/locales/zh.js" type="text/javascript"></script>
+        <!--繁体中文-->
+        <script src="js/locales/zh-TW.js" type="text/javascript"></script>
+        <script src="http://cdn.bootcss.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+            <div class="htmleaf-container">
+    
+                <div class="container kv-main">
+                    
+                    
+                    <hr>
+                    <h4>支持多种语言</h4>
+                    <form enctype="multipart/form-data" action="">
+                        <label>简体中文</label>
+                        <input id="file-zh" name="file-zh[]" type="file" multiple>
+                    </form>
+                    <hr>
+                    <br>
+                </div>
+            
+            </div>
+    </body>
+	<script>
+    $('#file-zh').fileinput({
+        language: 'zh',
+        uploadUrl: '#',
+        allowedFileExtensions : ['jpg', 'png','gif'],
+    });
+    
+    $(".btn-warning").on('click', function() {
+        if ($('#file-4').attr('disabled')) {
+            $('#file-4').fileinput('enable');
+        } else {
+            $('#file-4').fileinput('disable');
+        }
+    });    
+    $(".btn-info").on('click', function() {
+        $('#file-4').fileinput('refresh', {previewClass:'bg-info'});
+    });
+    $(document).ready(function() {
+        $("#test-upload").fileinput({
+            'showPreview' : false,
+            'allowedFileExtensions' : ['jpg', 'png','gif'],
+            'elErrorContainer': '#errorBlock'
+        });
+        /*
+        $("#test-upload").on('fileloaded', function(event, file, previewId, index) {
+            alert('i = ' + index + ', id = ' + previewId + ', file = ' + file.name);
+        });
+        */
+    });
+	</script>
+</html>

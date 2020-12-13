@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ams.dao.IDepartmentDao">
+
+
+
+
+
+    <resultMap type="Department" id="departmentTree">
+        <id column="id" property="id"/>
+        <result column="parentId" property="parentId"/>
+        <result column="name" property="name"/>
+        <result column="detail" property="detail"/>
+        <collection property="childDepartment"  column="id" select="getDepartmentChildren"/>
+        <collection property="employees"  column="id" select="getEmployees"/>
+    </resultMap>
+
+    <!-- 先查询菜单根级目录 -->
+    <!-- 这里的返回结果必须为resultMap，并且值为上面构建的resultMap的id的值 -->
+    <select id="findAll" resultMap="departmentTree">
+        SELECT
+            id,parentId,name
+        FROM
+            department 
+        WHERE
+            parentId IS NULL
+    </select>
+
+    <!-- 再利用上次查询结果colliection中column的值cid做递归查询，查出所有子菜单 -->
+    <!-- 这里的返回结果必须为resultMap，并且值为上面构建的resultMap的id的值 -->
+    <select id="getDepartmentChildren" resultMap="departmentTree">
+        SELECT
+            id,parentId,name
+        FROM
+            department
+        WHERE
+            parentId= #{id}
+    </select>
+    <select id="getEmployees" resultMap="departmentTree">
+        SELECT
+            id,username
+        FROM
+            users
+        WHERE
+            departmentId= #{id}
+    </select>
+
+    <select id="findById" resultType="com.ams.domain.Department">
+        SELECT *FROM department WHERE Id= #{id}
+    </select>
+   
+
+</mapper>

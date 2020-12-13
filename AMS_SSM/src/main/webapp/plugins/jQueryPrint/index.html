@@ -1,0 +1,128 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>jQuery简单易用的网页内容打印插件</title>
+	<style type='text/css'>
+		.float-left{float: left;}
+        #content_holder{float: left;}
+        .example{float: left;width: 100%;}
+        .example p{text-indent: 2em;}
+        .example h3{text-align: center;}
+        .example .operator{width: 100%;float: left;padding-top:10px;padding-bottom:10px;text-align: center;}
+        .example-1{background: #fee3a1;color: #354768;}
+        .example-1 img{display:inline-block;width: 300px;float: left;margin-left: 10px;margin-right: 15px;padding: 8px;}
+		.example-2{background: #80d190;color: #354768;}
+		.example-3{background: #b4a8d9;color: #9e344f;}
+		.example-4{background: #f9b1c7;color: #354768;}
+		.example-5{background: #fee3a1;color: #354768;text-align: center;padding: 15px;}
+    </style>
+	<!--[if lt IE 9]>
+        <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<!--[if lt IE 9]>
+         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+	<div class="jq22-container">
+	
+		<div id="content_holder">
+            <div id="ele1" class="example example-1">
+                <h3>Element 1</h3>
+                <img src="img/demo-img-1.jpg" width="300">
+                <p>他们的故事始于雨天，却也终于雨天，没能给他们一个晴朗的结局。他们的故事里总有一种挥之不去的湿意，不知是雨水，还是泪水。下雨了，路上的行人纷纷撑起伞，从高处往下看，是一片五彩缤纷的伞花，为这时阴沉的天地添上了一大片亮眼的色彩。霖站在二楼的阳台，神色复杂地看着楼下的某一处。顺着霖的视线看去，那里坐着一个女生，和路人撑伞路过或是走到屋檐躲雨的举动不同，她就坐在雨帘中一动不动的，像是一座雕塑。路过的人都对女生投以怪异的目光，但是谁也没有上前询问，毕竟大家都没有时间管别人的闲事。</p>
+                <p>雨停了，路人放下伞，感叹迟来的阳光。而女生似乎对这个情况有些失落，失魂落魄地站了起来，缓慢地举步离开。霖看着女生远去的身影，有些不舍又有些期待下一次能够再次见到她。</p>
+                <p>天气预报说接连几天都是阴雨绵绵的天气，而室外乌云密布的天空更是让人心情压抑，却让霖非常兴奋。果然，第二天下雨的时候，女生又坐在了同一个地方，同样的姿势，同样的神情，像是在等待什么，又像是在祭奠什么，给人一种哀伤的感觉。霖鼓起勇气坐到女生身旁，一句话也不说，就这样静静地坐着。女生没有察觉到霖的存在，依旧沉浸在自己的世界里。雨停了，两个人都被淋湿了，但是他们并不在意。女生掏出衣服里的一个造型独特的红色玉石吊坠，这时一滴水从女孩的脸上滑落，滴在了吊坠上，不知是未干的雨水还是女生未止的泪水。女生一手抚摸着吊坠，自顾自地离开，完全没有留意到坐在旁边的霖。</p>
+                <p>霖并不介意女生的无视，因为他能够感受到女生内心的悲伤，不是他这个陌生人能够消除的。他上网搜索了一下女生手中的吊坠，竟然是一款流年开运吉祥物。只是不知道女生是不是吊坠的主人，还是在思念吊坠的主人，或是在借用吉祥物的神秘力量祈求什么，种种猜测萦绕在霖的脑海里，每一种猜测都让霖有种心疼的感觉。</p>
+                <div class="operator">
+                <p style="width:100%;text-align:center">
+                这里是一些随机文本：
+                <input type="text" value="Dummy input text" />
+                </p>
+                <button class="print-link no-print" onclick="jQuery('#ele1').print()">
+                打印这个元素的内容 (jQuery('#ele1').print())
+                </button>
+                </div>
+            </div>
+            <div id="ele2" class="example example-2">
+                <h3>Element 2</h3>
+                <p>一直在期待，期待自己有天走出过去的阴影；一直在等待，等待那个说陪我一生的人回来；一直在欺骗，欺骗自己从来都没有爱错；一直在想念，想念那时的欢声笑语；一直在留恋，留恋曾经的味道；只是，时间真的是个很伟大，让海誓山盟都变成旧梦；我一直相信，你会回来，这么多年了，我的青春已快衰亡，当我走到青春的尽头时，才发现终点没有你。</p>
+                <p>在年少时许下了承诺，只是自己一直没有能力去实现，所以选择了遗忘；以为不再踏进我的世界，一切就会回到最初的平静，只是你却忘了，你在我的世界留下了深深地踪迹，我无法将它抹去；你可以当做一切从未发生，我却不能，我没有说服自己去忘记，你给的伤害太深，我痛过，可还是留下了疤痕无法抹去；你让我不要再想你，你让我好好走以后的路，我也想，却不知为何时不时还是会想你；我也不想让自己变成刺猬，扎伤我身边爱我的人，我也不想让我们的故事重演，我也不想要悲伤的结局；可是为什么你的身影总是在我的梦里出现，每次出现都会让我哭着醒来，原来我还是不能忘记，原来我还无法释怀；只是我再怎么留恋，再怎么不舍，结局都不会再有你了。</p>
+                <p>可能我已不再你的记忆里；可能对你我只是路人而已；可能一开始我们就是错的；我们自以为永远不会分开，我们自以为我们会信守诺言，我们自以为那些爱会一直一直都在......直到有一天，另一个人的出现，我们之间的一切都被更改，你忘记了给我的承诺，你忘记了我们的约定，你忘了我们走过的路，你选择了另一个人，我没有再哭着挽留，我洒脱的放了手，让你走，我留给你离开的背影，你就那样静静的看着我离开你的视线，没说一句话，就这样，我们之间断了所有的牵绊。</p>
+                <div class="operator">
+                <button class="print-link no-print">
+                打印这个元素内容 ($.print("#ele2")) 并且不会打印这个按钮。
+                </button>
+                </div>
+            </div>
+            <div id="ele3" class="example example-3">
+                <h3>Element 3</h3>
+                <p>每个人都会有自己最重视的东西，一旦失去了，就容易情绪失控甚至造成更严重的后果。霏最重视的是她相依为命的弟弟，而枫最重视的就是她。</p>
+                <p> 霏从小父母双亡，弟弟成为她唯一的亲人。在她心里，弟弟是排在第一位的，就算是和她在一起五年的男朋友枫，也不能超越。对于霏的偏心，枫从来没有怨言，还会比她更关心弟弟，只因那是她最重要的家人。</p>
+                <p class="no-print">
+                (这里的文字不会被打印) 弟弟经常催促霏和枫快点结婚，可是霏总是以弟弟还没成年为理由拖延，而枫虽然表面上同意延迟，可是心里还是希望能够尽快和霏成为夫妻。枫决定策划一次浪漫的求婚仪式，打算让弟弟做他们俩的爱神丘比特，担任仪式中一个最重要的角色。
+                </p>
+                <div class="operator">
+                <button class="print-link" onclick="jQuery.print('#ele3')">
+                打印这个元素内容 (jQuery.print('#ele3'))-“no-print”的内容不会被打印
+                </button>
+                </div>
+            </div>
+            <div id="ele4" class="example example-4">
+                <h3 class='avoid-this'>Element 4</h3>
+                <p> 到了枫要求婚的那一天，霏被神秘兮兮的枫带到一家西餐厅吃晚餐。枫心不在焉地一边聊天吃东西，一边瞄着手表上的指针，还时不时看向餐厅门口，像是在等人。霏觉得很奇怪，正想问枫怎么回事的时候，她的手机响了。来电显示是弟弟的电话，霏接起电话，还没来得及说话，电话里就传来了一个坏消息，让霏差点连手机都拿不住。枫紧张地问霏发生了什么事，霏没有回答，只是迅速地结账，拉着枫以最快的速度乘坐出租车前往医院。</p>
+                <p> 当听到霏对司机说要去一家医院的时候，枫就知道一定是弟弟出事了，他没有多说什么，只是紧紧地握住霏的手，给予她无声的安慰。到了医院，医生告知他们弟弟就在十分钟前不治死亡。听到这个噩耗，霏就晕过去了。</p>
+                <div class="operator">
+                <button class="print-link avoid-this">在新窗口中打印这个元素内容，标题和按钮不会被打印</button>
+                </div>
+            </div>
+            <div  class="example example-5">
+	            <button class="print-link" onclick="jQuery.print()">
+	            打印整个页面
+	            </button>
+            </div>
+        </div>
+		
+	</div>
+	
+	<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="js/jQuery.print.js"></script>
+    <script type='text/javascript'>
+        //<![CDATA[
+        $(function() {
+            $("#ele2").find('.print-link').on('click', function() {
+                //Print ele2 with default options
+                $.print("#ele2");
+            });
+            $("#ele4").find('button').on('click', function() {
+                //Print ele4 with custom options
+                $("#ele4").print({
+                    //Use Global styles
+                    globalStyles : false,
+                    //Add link with attrbute media=print
+                    mediaPrint : false,
+                    //Custom stylesheet
+                    stylesheet : "http://fonts.useso.com/css?family=Inconsolata",
+                    //Print in a hidden iframe
+                    iframe : false,
+                    //Don't print this
+                    noPrintSelector : ".avoid-this",
+                    //Add this at top
+                    prepend : "Hello World!!!<br/>",
+                    //Add this on bottom
+                    append : "<br/>Buh Bye!"
+                });
+            });
+            // Fork https://github.com/sathvikp/jQuery.print for the full list of options
+        });
+        //]]>
+    </script>
+</body>
+</html>

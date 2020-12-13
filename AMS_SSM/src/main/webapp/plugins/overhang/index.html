@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>实用窗口顶部消息通知、提示和确认jQuery插件 | DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<link rel="stylesheet" type="text/css" href="demo/style/index.css" />
+      <link rel="stylesheet" type="text/css" href="dist/overhang.min.css" />
+      <link rel="stylesheet" type="text/css" href="demo/style/prism.css" />
+
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="lib/overhang.js"></script>
+      <script type="text/javascript" src="demo/js/prism.js"></script>
+      <script type="text/javascript" src="demo/js/index.js"></script>
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>实用窗口顶部消息通知、提示和确认jQuery插件 <span>A JQuery plugin for notifications, prompts and confirmations</span></h1>
+			<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/jQuery/Lightbox-Dialog/201608233902.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div>
+		</header>
+		<div class="aligned-box">
+      <h1 class="title"><span class="pre">overhang</span>.js</h1>
+      <p class="descrip">A JQuery plugin to display sleek, instant notifications, confirmations or prompts inside a given element.</p>
+
+      <button class="try-button sample">Try me</button>
+
+      <div id="Examples">
+        <div class="example--left">
+          <div class="code-info">
+            <p class="type">Success Message</p>
+            <button class="try-button example--1">Try me</button>
+          </div>
+          <div class="code-example">
+<pre style="width: 290px"><code class="language-javascript">
+$("body").overhang({
+  type: "success",
+  message: "Woohoo! It works!"
+});
+</code></pre>
+          </div>
+        </div>
+
+        <div class="example--right">
+          <div class="code-example">
+<pre style="width: 370px"><code class="language-javascript">
+$("body").overhang({
+  type: "error",
+  message: "Whoops! Something went wrong!",
+  closeConfirm: true
+});
+</code></pre>
+          </div>
+          <div class="code-info">
+            <p class="type">Closable Message</p>
+            <button class="try-button example--2">Try me</button>
+          </div>
+        </div>
+
+        <div class="example--left">
+          <div class="code-info">
+            <p class="type">Timed Message</p>
+            <button class="try-button example--3">Try me</button>
+          </div>
+          <div class="code-example">
+<pre style="width: 350px"><code class="language-javascript">
+$("body").overhang({
+  type: "info",
+  message: "This message will close in 5 seconds!",
+  duration: 5,
+  upper: true
+});
+</code></pre>
+          </div>
+        </div>
+
+        <div class="example--right">
+          <div class="code-example">
+<pre style="width: 367px"><code class="language-javascript">
+$("body").overhang({
+  type: "warn",
+  message: "A user has reported you!",
+  duration: 3
+});
+</code></pre>
+          </div>
+          <div class="code-info">
+            <p class="type">Warning Message</p>
+            <button class="try-button example--4">Try me</button>
+          </div>
+        </div>
+
+        <div class="example--left">
+          <div class="code-info">
+            <p class="type">Prompt Alert</p>
+            <button class="try-button example--5">Try me</button><br />
+            <button class="try-button example--6">View</button>
+          </div>
+          <div class="code-example">
+<pre style="width: 290px"><code class="language-javascript">
+$("body").overhang({
+  type: "prompt",
+  message: "What's your name?"
+});
+</code></pre>
+          </div>
+        </div>
+
+        <div class="example--right">
+          <div class="code-example">
+<pre style="width: 270px"><code class="language-javascript">
+$("body").overhang({
+  type: "confirm",
+  message: "Are you sure?"
+});
+</code></pre>
+          </div>
+          <div class="code-info">
+            <p class="type">Confirmation Alert</p>
+            <button class="try-button example--7">Try me</button><br />
+            <button class="try-button example--8">View</button>
+          </div>
+        </div>
+
+        <div class="example--left">
+          <div class="code-info">
+            <p class="type">Customized Alert</p>
+            <button class="try-button example--9">Try me</button>
+          </div>
+          <div class="code-example" style="margin-bottom: 30px;">
+<pre style="width: 350px"><code class="language-javascript">
+$("body").overhang({
+  custom: true,
+  textColor: "#FCE4EC",
+  primary: "#F06292",
+  accent: "#FCE4EC",
+  message: "This is my custom message 😜"
+});
+</code></pre>
+          </div>
+        </div>
+
+        <div class="example--right">
+          <div class="code-example">
+<pre style="width: 350px"><code class="language-javascript">
+$("body").overhang({
+  type: "confirm",
+  primary: "#40D47E",
+  accent: "#27AE60",
+  yesColor: "#3498DB",
+  message: "Do you want to continue?",
+  callback: function () {
+    var selection = $("body").data("overhangConfirm");
+    var response = selection ? "yes" : "no";
+    alert("You made your selection of " + response);
+  }
+});
+</code></pre>
+          </div>
+          <div class="code-info">
+            <p class="type">Using callbacks</p>
+            <button class="try-button example--10">Try me</button><br />
+          </div>
+        </div>
+
+        <div class="example--left">
+          <div class="code-info">
+            <p class="type">Using HTML</p>
+            <button class="try-button example--11">Try me</button>
+          </div>
+          <div class="code-example" style="margin-bottom: 30px;">
+<pre style="width: 350px"><code class="language-javascript">
+var snapchatIcon = '&lt;i class="fa fa-snapchat-ghost" style="color: #FFFC00" aria-hidden="true">&lt;/i>';
+var snapchatNote = ' Add <span style="font-size: 20px">"thepaulkr"</span> on snapchat!';
+
+$("body").overhang({
+  type: "confirm",
+  primary: "#333333",
+  accent: "#FFFC00",
+  message: snapchatIcon + snapchatNote,
+  custom: true,
+  html: true,
+  callback: function () {
+    var selection = $("body").data("overhangConfirm");
+    if (selection) {
+      window.open("https://www.htmleaf.com/", "_blank");
+    } else {
+      alert("Maybe next time then...");
+    }
+  }
+});
+</code></pre>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+		<div class="related">
+		    <h3>如果你喜欢这个插件，那么你可能也喜欢:</h3>
+		    <a href="http://www.htmleaf.com/css3/css3donghua/201503061470.html">
+			  <img src="related/1.jpg" width="300" alt="66种基于animate.css的CSS消息提示动画效果"/>
+			  <h3>66种基于animate.css的CSS消息提示动画效果</h3>
+			</a>
+			<a href="http://www.htmleaf.com/jQuery/Lightbox-Dialog/201509202598.html">
+			  <img src="related/2.jpg" width="300" alt="Windows8样式的消息提示框jQuery插件"/>
+			  <h3>Windows8样式的消息提示框jQuery插件</h3>
+			</a>
+		</div>
+	</div>
+	
+	
+</body>
+</html>

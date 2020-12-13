@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+<!--    <settings>-->
+<!--        &lt;!&ndash; 开启驼峰命名规则 。。。 &ndash;&gt;-->
+<!--        <setting name="mapUnderscoreToCamelCase" value="true"/>-->
+<!--    </settings>-->
+
+    <typeAliases>
+        <!-- 批量注册别名。 类名首字母大写-->
+        <package name="com.ams.domain"/>
+    </typeAliases>
+
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--分页参数合理化  -->
+            <property name="reasonable" value="true"/>
+
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
+    </plugins>
+    <mappers>
+        <package name="com.ams.dao"></package>
+    </mappers>
+
+</configuration>
